@@ -1,0 +1,6 @@
+endpoint: https://uiux-test-d65afeb070.herokuapp.com/uiux-prisma-test/dev
+datamodel: datamodel.prisma
+
+generate:
+  - generator: javascript-client
+    output: ./generated/prisma-client/
