@@ -1,0 +1,23 @@
+{
+  "name": "uiux-prisma-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://apjammanbo@github.com/apJammanbo/uiux-prisma-test.git",
+  "author": "apJammanbo <apJammanbo@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.18.1",
+    "merge-graphql-schemas": "^1.7.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/runtime": "^7.4.5"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node src/server.js"
+  }
+}
